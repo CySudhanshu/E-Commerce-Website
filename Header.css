@@ -1,0 +1,607 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.Uppernav{
+   background-color: #F5F5F5;
+   font-size: 0.9rem;
+   display: flex;
+ justify-content: space-between;
+   padding: 10px;
+}
+.uppernav-logo{
+    margin: 0px 5px 0px 45px ;
+}
+.uppernav-logo i{
+    margin-right: 10px;
+   
+}
+.uppernav-logo span{
+    font-size: 0.9rem; 
+    font-weight: 500;
+}
+.uppernav-country{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin:0px 25px 0px 0px ;
+    cursor: pointer;
+}
+
+.uppernav-country img {
+    width: 1.2rem;
+}
+
+
+.uppernav-country .down-arrow{
+    width: 12px;
+    margin: 0px 0px 0px 3px;
+}
+
+.uppernav-country span{
+    padding: 8px ;
+}
+
+.uppernav-topic{
+   font-size: 0.9rem;
+   font-weight: 500;
+   cursor: pointer;
+   
+}
+.uppernav-topic span {
+    padding: 8px;
+}
+
+.Uppernav-icon a{
+  padding: 8px;
+  color:  rgb(59, 57, 57);
+}
+
+
+.uppernav  .uppernav-menu{
+    display: none;
+   
+}
+/* ------------------------------------------------------------------------------- */
+.navbar{
+    display: flex;
+ 
+}
+.navbar h3{
+    font-size: 2rem;
+    margin: 0px 0px 0px 30px;
+}
+
+
+.navlinks ul {
+    display: flex;
+   
+}
+.navlinks ul li{
+    margin: 8px ;
+    padding: 8px;
+   list-style: none;
+
+}
+
+.navlinks ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+}
+.navbar-icon{
+margin-right: 15px;
+
+}
+.navbar-icon a{
+    padding: 8px;
+    color: black;
+}
+.navbar > i{
+    display: none;
+    margin-right: 10px;
+}
+
+
+/* ------------------------------------------------------------------- */
+.hero_section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 10px;
+    
+   
+}
+.image1{
+    background-image: url(Images/header\ image/pic1.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.image2{
+    background-image: url(Images/header\ image/pic2.avif);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    cursor: pointer;
+   
+  
+}
+.image3{
+    background-image: url(Images/header\ image/pic3.avif);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    position: relative;
+    cursor: pointer;
+   
+}
+.image1 h1 {
+   position: absolute;
+    top: 200px;
+    left:200px;
+    color: white;
+    font-weight: 700;
+  
+
+}
+.image2 h1{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+    font-weight: 700;
+}
+.image3 h1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: white;
+    font-weight: 700;
+}
+.btn {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+   
+}
+
+.image1 button, .image2 button, .image3 button {
+    background-color: #F5F5F5;
+    border-radius: 0;
+    padding: 10px;
+}
+/* -------------------------- */
+.mini_hero{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mini_hero1{
+    padding: 20px;
+}
+.mini_hero1 i{
+    color: red;
+    padding: 0px 10px 0px 10px;
+}
+
+.mini_hero1 p {
+    opacity: 50%;
+}
+.mini_hero1 span{
+    font-weight: 500;
+}
+
+.mini_hero2{
+    padding: 20px;
+}
+.mini_hero2 i{
+    color: red;
+    padding: 0px 10px 0px 10px;
+}
+
+.mini_hero2 p {
+    opacity: 50%;
+}
+.mini_hero2 span{
+    font-weight: 500;
+}
+.mini_hero3{
+    padding: 20px;
+}
+.mini_hero3 i{
+    color: red;
+    padding: 0px 10px 0px 10px;
+}
+
+.mini_hero3 p {
+    opacity: 50%;
+}
+.mini_hero3 span{
+    font-weight: 500;
+}
+.mini_hero4{
+    padding: 20px;
+}
+.mini_hero4 span{
+    font-weight: 500;
+}
+.mini_hero4 i{
+    color: red;
+    padding: 0px 10px 0px 10px;
+}
+
+.mini_hero4 p {
+    opacity: 50%;
+}
+
+/* -----------------------------Collection--------------------------------- */
+.Collection{
+
+    margin: 50px 0px;
+}
+
+.content{
+    text-align: center;
+    margin: 30px 0px 30px 0;
+}
+.content p:first-child {
+    font-size: 1rem;
+    opacity: 50%;
+    font-weight: 500;
+}
+.content p{
+    font-size: 1rem;
+}
+
+
+.collection_Img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 0px 100px 0px 100px;
+}
+
+.collection_img_1 {
+    background-image: url(Images/Collection/Begs.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    cursor: pointer;
+    transition-duration: 1s;
+
+}
+
+
+.collection_Img_2 {
+    background-image: url(Images/Collection/printed.jpg);
+    width:700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    transition-duration:1s ;
+
+}
+.collection_img_2:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+
+.collection_pic_3 {
+    background-image: url(Images/Collection/Basic.jpg);
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+.collection_pic_3:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+.collection_pic_4 {
+    background-image: url(Images/Collection/sweatshirts.jpg);
+    width: 700px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+
+
+.collection_content {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    color: #F5F5F5;
+}
+.collection_content button{
+    color: #F5F5F5;
+   background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.offer{
+    position: relative;
+    top: 20px;
+    left: 600px;
+    height: 80px;
+    width: 80px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    color: #F5F5F5;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+/* ------------------------------Product----------------------- */
+.Product {
+
+    margin-top: 100px;
+}
+.gender_Women {
+    color: red;
+   border-bottom:1px solid rgb(240, 6, 6);
+}
+.Product_pic_1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   row-gap:130px;
+   column-gap: 30px;
+}
+
+.item1 {
+    background-image: url(Images/Product/shoes1.webp);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+   background-size: cover;
+   cursor: pointer;
+
+}
+
+.item2 {
+    background-image: url(Images/Product/dress1.webp);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.item3 {
+    background-image: url(Images/Product/shoes2.webp);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+   background-size: cover;
+   cursor: pointer;
+}
+
+.item4 {
+    background-image: url(Images/Product/topes.webp);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.item5{
+   background-image: url(Images/Product/shooes3.webp);
+   background-repeat: no-repeat;
+   width: 300px;
+   height: 350px;
+   background-size: cover;
+   cursor: pointer;
+}
+.item6{
+    background-image: url(Images/Product/skirts.webp);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    cursor: pointer;
+}
+.item7{
+    background-image: url(Images/Product/Begs.jpeg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    cursor: pointer;
+}
+.item8{
+    background-image: url(Images/Product/shooes3.webp);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    cursor: pointer;
+}
+.item_price{
+    position: relative;
+    top: 370px;
+    font-size: 15px;
+}
+.item_price span:hover{
+  color: #D7E4C0;
+}
+.item_price p{
+    cursor: text;
+}
+
+.discover{
+    position: relative;
+    top: 200px;
+    /* left: 50%; */
+   text-align: center;
+}
+.discover a{
+    color: black;
+    text-decoration:  none;
+    font-weight: 500;
+    transition: 1s;
+    border-bottom: 1px solid black;
+   
+}
+.discover a:hover{
+    color: red;
+    border-bottom: #F5F5F5;
+}
+.gender_Women:hover{
+    color: red;
+    cursor: pointer;
+    border-bottom: 1px solid red;
+    
+}
+.gender_Men:hover{
+    color: red;
+    cursor: pointer;
+}
+.gender_kids:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* <!-- ----------------------------------Countdowm timer--------------------------- --> */
+
+
+.timer{
+    margin-top: 300px  ;
+    background-image: url(Images/Timerpic/Timer.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    position: relative;
+}
+
+.timer-content{
+    position:absolute;
+    top: 150px;
+    right: 350px;
+   
+}
+.timer-content h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+
+}
+
+.timer-content button {
+      font-size: 20px;
+      margin-top: 50px;
+      padding: 15px;
+      outline: none;
+      border: none;
+      background-color: black;
+      color: white;
+      transition-duration: 1s;
+      transition-property: background-color;
+      transition-timing-function: ease-in-out;
+}
+
+.timer-content button:hover{
+ 
+    background-color: red;
+   
+}
+
+.fa-solid{
+    margin: 0px 10px;
+   
+}
+
+
+
+/* --------------------garllary----------------- */
+
+.gallary{
+    background-color:#F5F5F5;
+}
+.gallary_img{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img{
+    width: 200px;
+    cursor: pointer;
+}
+.gallary_icon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.gallary_icon img{
+    width: 150px;
+    padding: 20px;
+    margin: 15px;
+}
+
+
+/* ---------------------Footer----------------------------- */
+.footer{
+    background-color: black;
+   padding-top: 100px;
+}
+.footer_content1  p{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.payment_icon img{
+  width: 35px;
+
+}
+.footer_content2{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+}
+.footer_content1  input{
+  padding: 15px;
+}
+/* -------------------Below footer----------------- */
+.below_Footer {
+    display: flex;
+   
+    justify-content: space-around;
+   
+}
+
+.below_Footer p{
+    color: rgb(172, 168, 168) ;
+}
+
